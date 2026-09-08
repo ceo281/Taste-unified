@@ -32,7 +32,7 @@ scripts/verify-line-map.sh         check the map still points where it claims
 **Claude Code, as a plain skill in every project:**
 
 ```sh
-git clone https://github.com/ceo281/taste-unified
+git clone https://github.com/ceo281/Taste-unified
 taste-unified/scripts/install.sh                    # -> ~/.claude/skills/taste-unified
 taste-unified/scripts/install.sh ../other-project   # -> that project's .claude/skills
 ```
@@ -41,9 +41,14 @@ taste-unified/scripts/install.sh ../other-project   # -> that project's .claude/
 
 ```sh
 mkdir -p ~/.claude/skills/taste-unified && curl -fsSL \
-  https://raw.githubusercontent.com/ceo281/taste-unified/main/skills/taste-unified/SKILL.md \
+  https://raw.githubusercontent.com/ceo281/Taste-unified/main/skills/taste-unified/SKILL.md \
   -o ~/.claude/skills/taste-unified/SKILL.md
 ```
+
+> This repo is **private**. The clone and plugin installs work wherever your git
+> is authenticated to GitHub; the raw-URL fetch above needs a token
+> (`curl -H "Authorization: Bearer $GITHUB_TOKEN" ...`) unless the repo is made
+> public.
 
 **Claude apps that accept uploaded skills.** Upload `SKILL.md` as-is. The YAML
 frontmatter carries the `name` and `description` those surfaces use to decide
