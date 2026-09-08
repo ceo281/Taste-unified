@@ -1,0 +1,8 @@
+{
+  "name": "taste-unified",
+  "description": "Unified anti-slop design skill. Consolidates 13 Taste Skill modules into one file, routing by deliverable and aesthetic profile.",
+  "version": "1.0.0",
+  "author": { "name": "ceo281" },
+  "homepage": "https://github.com/ceo281/taste-unified",
+  "keywords": ["design", "frontend", "ui", "branding", "taste"]
+}

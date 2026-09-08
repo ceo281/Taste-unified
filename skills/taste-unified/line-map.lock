@@ -1,0 +1,19 @@
+# anchors for the GATE 0 map in SKILL.md -- regenerate with scripts/verify-line-map.sh --update
+277afb30561d31e3	Part 1, router (pick your mode)
+2de63983a6f58e17	Part 2, universal invariants (always apply)
+065a3fb0d65727ca	Part 3, the dials
+eaa9c2918263405d	Part 4, conflict register (read only rows touching your mode)
+179f42520402fb21	Part 9, UNIFIED PRE-FLIGHT / HEALTH CHECK
+12fa7d809a971980	A1 design-taste-frontend, THE DEFAULT
+484de9ae11e33c12	A2 v1
+7bb290360479bc83	A3 gpt-taste
+f991ed8cf5218bd6	A4 redesign-existing (audit phase)
+22cac5ab2ef09174	A5 high-end-visual-design (soft, premium)
+87125107058d57c2	A6 minimalist-ui
+2599b907706c3ca4	A7 industrial-brutalist-ui
+dcb3965855158918	A8 full-output-enforcement (cross-cutting)
+86790df334a74cc8	B1 imagegen-frontend-web
+9e3df456bb5706ad	B2 imagegen-frontend-mobile
+b4fc5e5cf3a6fc12	B3 brandkit
+ffd0699af5148348	PIPELINE profile
+9be75ce353ad3e58	SPEC profile

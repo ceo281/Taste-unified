@@ -1,0 +1,14 @@
+{
+  "name": "taste-unified",
+  "owner": {
+    "name": "ceo281"
+  },
+  "plugins": [
+    {
+      "name": "taste-unified",
+      "source": "./",
+      "description": "Unified anti-slop design skill. Consolidates 13 Taste Skill modules into one file, routing by deliverable and aesthetic profile."
+    }
+  ],
+  "description": "Single-plugin marketplace hosting taste-unified, an anti-slop design skill consolidating 13 Taste Skill modules."
+}

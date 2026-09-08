@@ -1,0 +1,15 @@
+name: verify
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  line-map:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # The skill routes itself by absolute line number. Any edit that shifts a
+      # line above a GATE 0 target silently re-points it at the wrong section,
+      # with no error at read time. This is the only thing that catches it.
+      - run: scripts/verify-line-map.sh
